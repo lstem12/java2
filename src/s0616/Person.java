@@ -6,7 +6,7 @@ public class Person {
 	int age;
 
 	void run(String name, int age) {
-		System.out.println(name + "이 달립니다.");
+		System.out.println(this.name + "이 달립니다.");
 		if (age > 30) {
 			System.out.println(age + "가 되니까 지치는구나");
 		} else {
