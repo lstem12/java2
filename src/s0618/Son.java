@@ -1,9 +1,9 @@
 package s0618;
 
 public class Son extends Father{
-	Son(){
+	/*Son(){
 		System.out.println("난 나중이지");
-	}
+	}*/
 	
 	int money = 50000;
 	public static void main(String[] args) {
@@ -16,7 +16,7 @@ public class Son extends Father{
 		System.out.println("아빠가 가진돈은" + s2.money);*/
 		
 		//new Son();
-		Father f = new Son();
+		Son f = new Son();
 		System.out.println(f.money);
 		
 	}
