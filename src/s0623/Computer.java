@@ -1,6 +1,7 @@
 package s0623;
 
 public class Computer {
+	int i;
 	String cpu;
 	int ram;
 	String board;
