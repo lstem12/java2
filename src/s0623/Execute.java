@@ -5,5 +5,6 @@ public class Execute {
 		Computer c;
 		c = new Computer("intel i7 9700",16,"Gigabyte B370");
 		c.printInfo();
+
 	}
 }
