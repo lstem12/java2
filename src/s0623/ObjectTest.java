@@ -1,7 +1,6 @@
 package s0623;
 
 class Computer2 {
-	int i;
 	String cpu;
 	int ram;
 	Computer2(String cpu, int ram){
