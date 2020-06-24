@@ -10,5 +10,6 @@ public class Mart {
 		Mart ma = new Mart();
 		ma.martObject();
 		em.martObject();
+		System.out.println(em.brand);
 	}
 }
