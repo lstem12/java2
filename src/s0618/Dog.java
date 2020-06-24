@@ -6,7 +6,7 @@ public class Dog extends Animal {
 		System.out.println("강아지가 짓습니다");
 	}
 	public static void main(String[] args) {
-		Animal d = new Dog();
+		Dog d = new Dog();
 		d.speak();
 	}
 }
