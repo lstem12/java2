@@ -1,4 +1,4 @@
-package s0625_homework_2;
+package s0624_homework_2;
 
 import s0624_homework.Car;
 
