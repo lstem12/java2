@@ -1,6 +1,4 @@
-package s0624_homework_2;
-
-import s0624_homework.Car;
+package s0624_homework;
 
 public class Suv extends Car {
 	
