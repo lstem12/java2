@@ -9,25 +9,23 @@ import java.sql.Statement;
 public class Connector2 {
 	public static void main(String[] args) {
 		try {
-			Class.forName("org.mariadb.jdbc.Driver");
-			String url = "jdbc:mariadb://127.0.0.1:3306/java";
-			String id = "root";
-			String pwd = "1234";
+			Class.forName("oracle.jdbc.driver.OracleDriver");
+			String url = "jdbc:oracle:thin:@localhost:1521/xe";
+			String id = "c##test";
+			String pwd = "test";
 			Connection conn = DriverManager.getConnection(url,id,pwd);
 			Statement stmt = conn.createStatement();
-			String sql = "";
-			ResultSet rs = stmt.executeQuery("SELECT * FROM user");
-			
-			while(rs.next()) {
+			String sql = "select * from lent";
+			ResultSet rs = stmt.executeQuery(sql);	
+			/*while(rs.next()) {
 				System.out.print(rs.getInt("num")+",");
 				System.out.print(rs.getString("name")+",");
 				System.out.print(rs.getString("id"));
 				System.out.println();
-			}
-			
-			sql = "";
-			int result = stmt.executeUpdate(sql);
-			System.out.println("실행 결과 반영 개수  :"+result);
+			}*/	
+			//int result = stmt.executeUpdate(sql);
+			//System.out.println("실행 결과 반영 개수  :"+result);
+			System.out.println("연결잘됨");
 			
 		} catch (ClassNotFoundException e) {
 			e.printStackTrace();
