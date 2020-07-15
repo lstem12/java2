@@ -25,7 +25,7 @@ public class Connector2 {
 			}*/	
 			//int result = stmt.executeUpdate(sql);
 			//System.out.println("실행 결과 반영 개수  :"+result);
-			System.out.println("연결잘됨");
+			System.out.println(rs);
 			
 		} catch (ClassNotFoundException e) {
 			e.printStackTrace();
