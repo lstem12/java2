@@ -18,6 +18,7 @@ public class Test13 {
 	}
 	 
 	public static void main(String[] args) {
+		Test13 t13 = new Test13();
 		a(0,1);
 		
 		
@@ -25,7 +26,7 @@ public class Test13 {
 		System.out.println(num1());
 		
 		int b = 1;
-		System.out.println(b);
+		System.out.println(t13.num);
 		
 	}
 }
