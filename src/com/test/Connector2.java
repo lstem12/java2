@@ -27,9 +27,7 @@ public class Connector2 {
 			//System.out.println("실행 결과 반영 개수  :"+result);
 			System.out.println(rs);
 			
-		} catch (ClassNotFoundException e) {
-			e.printStackTrace();
-		} catch (SQLException e) {
+		} catch (Exception e) {
 			e.printStackTrace();
 		}
 	}

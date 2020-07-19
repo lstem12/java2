@@ -10,7 +10,7 @@ public class ListTest2 {
 		strList.add("노트북");
 		strList.add("컴퓨터");
 		
-		int idx = strList.indexOf("컴 퓨터");
+		int idx = strList.indexOf("컴퓨터");
 		System.out.println(idx);
 		
 	}
